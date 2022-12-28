@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/idesk/static/css/main.9200ad9e.css",
+    "main.js": "/idesk/static/js/main.b38e63ed.js",
+    "static/js/787.88bbf4eb.chunk.js": "/idesk/static/js/787.88bbf4eb.chunk.js",
+    "static/media/isaac.jpg": "/idesk/static/media/isaac.4e8ba7e7d13557926ee0.jpg",
+    "static/media/logo.svg": "/idesk/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/idesk/index.html",
+    "main.9200ad9e.css.map": "/idesk/static/css/main.9200ad9e.css.map",
+    "main.b38e63ed.js.map": "/idesk/static/js/main.b38e63ed.js.map",
+    "787.88bbf4eb.chunk.js.map": "/idesk/static/js/787.88bbf4eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9200ad9e.css",
+    "static/js/main.b38e63ed.js"
+  ]
+}
