@@ -1,0 +1,173 @@
+.wrapper{
+    padding-top: 25px;
+    background-color: var(--gray);
+    height: calc(100vh - 60px);
+}
+.main{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 256.25px);
+    grid-gap: 25px;
+
+    > div{
+        border: 1px solid black;
+        height: 100%;
+        overflow-y: auto;
+        > div:not(:first-child){
+            margin-top: 20px;
+        }
+    }
+    div:nth-of-type(2){
+        grid-column: span 2;
+    }
+
+    .leftbox{
+        
+        .profile{
+            background-color: var(--white);
+            .box{
+                position: relative;
+                // border: 1px solid black;
+                height: 140px;
+                .redbg{
+                    height: 80px;
+                    background-color: var(--rubyred);
+                }
+        
+                img{
+                    width: 100px;
+                    border-radius: 200px;
+                    position: absolute;
+                    left: 50%;
+                    translate: -50% -40px;
+                    border: 3px solid var(--white);
+                }
+            }
+            
+    
+            .infobox{
+                div:not(:first-child){
+                    border-top: 1px solid var(--gray);
+                }
+                // border: 1px solid black;
+                min-height: 200px;
+                .statinfo{
+                    text-align: center;
+                    padding-block: 15px;
+                    // border: 1px solid black;
+                }
+                .viewprofile{
+                    text-align: center;
+                    padding-block: 20px;
+                    // border: 1px solid black;
+                    color: var(--rubyred);
+                }
+            }
+        }
+        .suggestion{
+            background-color: var(--white);
+            .sidehead{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid var(--gray);
+                padding: 15px;
+            }
+            .sidebody{
+                min-height: 200px;
+            }
+            .viewmore{
+                text-align: center;
+                padding-block: 30px;
+                color: var(--rubyred);
+            }
+        }
+        
+    }
+        
+        
+}
+
+
+.middlebox{
+    .createpost{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 15px;
+        background-color: var(--white);
+        border-radius: 0 0 3px 3px;
+        border-top: 3px solid var(--rubyred);
+        img{
+            width: 50px;
+            border-radius: 200px;
+        }
+    
+        > div{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+    
+            button{
+                padding: 10px 15px;
+                font-weight: 600;
+                border: none;
+                border-radius: 3px;
+            }
+            button:nth-of-type(1){
+                 background-color: var(--gray);
+                 color: var();
+            }
+            button:nth-of-type(2){
+                background-color: var(--rubyred);
+                color: var(--white);
+            }
+        }
+    }
+}
+
+
+.rightbox{
+    .identity{
+        background-color: var(--white);
+         div:nth-of-type(1){
+            padding-block: 30px;
+            text-align: center;
+            img{
+                width: 100px;
+            }
+        }
+        > div:nth-of-type(2){
+            padding-block: 20px;
+            text-align: center;
+            border-top: 1px solid var(--gray);
+            p{
+                color: var(--rubyred);
+            }
+        }
+
+    }
+
+    .mostviewed{
+        background-color: var(--white);
+        .sidehead{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--gray);
+            padding: 15px;
+        }
+        .sidebody{
+            min-height: 200px;
+        }
+        .viewmore{
+            text-align: center;
+            padding-block: 30px;
+            color: var(--rubyred);
+        }
+    }
+    
+    
+}

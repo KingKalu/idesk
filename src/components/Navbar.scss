@@ -1,0 +1,80 @@
+.navbar{
+    background-color: var(--rubyred);
+
+    nav{
+        height: 60px;
+        width: 1100px;
+        margin: 0 auto;
+        // border: 1px solid black;
+        display: flex;
+        align-items: center;
+    }
+
+    .logoSearchBox{
+        display: flex;
+        align-items: center;
+    }
+
+    .logopic{
+        width: 60px;
+    }
+
+    .searchBox{
+        display: flex;
+        background-color: var(--white);
+        height: 40px;
+        input{
+            border: none;
+            outline: none;
+            padding: 10px;
+        }
+        div{
+            width: 40px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--gray);
+            img{
+                rotate: 90deg;
+                width: 20px;
+            }
+        }
+    }
+
+    .navigation{
+        gap: 30px;
+        // border: 1px solid black;
+        display: flex;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--white);
+            font-size: 14px;
+        }
+        margin-left: auto;
+    }
+
+    .navprofile{
+        margin-left: 40px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        gap: 10px;
+        border-left: 1px solid var(--darkruby);
+        border-right: 1px solid var(--darkruby);
+        // border: 1px solid black;
+        img{
+            width: 30px;
+            border-radius: 200px;
+            // border: 1px solid black;
+        }
+        span{
+            display: flex;
+            align-items: center;
+            color: var(--white);
+        }
+    }
+}
